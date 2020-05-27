@@ -290,6 +290,9 @@
               </li>
             </ul>
           </div>
+          <div class="row justify-content-center">
+          <button type="submit" class="btn btn-info">Resubmit</button>
+        </div>
           <!-- sidebar-menu  -->
         </div>
         <!-- sidebar-content  -->
@@ -328,11 +331,53 @@
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="card rounded-0 p-0 shadow-sm">
-                <!-- <img
-                  src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png"
-                  class="card-img-top rounded-0"
-                  alt="Angular pro sidebar"
-                /> -->
+                <div class="card-body text-center">
+                  <h5 class="card-title">Name of LD</h5>
+                  <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
+                  <h6>time</h6>
+                  <h6>Author</h6>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    >Edit</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank" class="btn btn-success btn-sm"
+                    >Preview</a>
+                </div>
+                <hr>
+                <div class="alert alert-success" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Online">Where to apply</span>
+                </div>
+                <div class="alert alert-danger" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Yes">Student's discussion</span>
+                </div>
+                <div class="alert alert-warning" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Between 30-40">Number of Students</span>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Apply">Bloom's Taxonomy</span>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Bachelor or Equivalent">Educational Level</span>
+                </div>
+                <div class="alert alert-warning" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Science">Subject</span>
+                </div>
+                <div class="alert alert-danger" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="Between 20-30 min">Activity Time</span>
+                </div>
+                <div class="alert alert-success" role="alert">
+                  <span data-toggle = "tooltip" data-placement = "top" title="more than 30 min">Submission Time</span>
+                </div>
+              </div>
+            </div>
+            <!-- End of first card -->
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="card rounded-0 p-0 shadow-sm">
+               
                 <div class="card-body text-center">
                   <h5 class="card-title">Name of LD</h5>
                   <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
@@ -355,38 +400,6 @@
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
               <div class="card rounded-0 p-0 shadow-sm">
-                <!-- <img
-                  src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png"
-                  class="card-img-top rounded-0"
-                  alt="Angular pro sidebar"
-                /> -->
-                <div class="card-body text-center">
-                  <h5 class="card-title">Name of LD</h5>
-                  <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
-                  <h6>time</h6>
-                  <h6>Author</h6>
-                  <a
-                    href="#"
-                    target="_blank"
-                    class="btn btn-primary btn-sm"
-                    >Edit</a
-                  >
-                  <a
-                    href="#"
-                    target="_blank"
-                    class="btn btn-success btn-sm"
-                    >Preview</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
-              <div class="card rounded-0 p-0 shadow-sm">
-                <!-- <img
-                  src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png"
-                  class="card-img-top rounded-0"
-                  alt="Angular pro sidebar"
-                /> -->
                 <div class="card-body text-center">
                   <h5 class="card-title">Name of LD</h5>
                   <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
@@ -414,7 +427,7 @@
       <!-- page-content" -->
     </div>
     <!-- page-wrapper -->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.10.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
@@ -427,6 +440,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="./js/sidenav.js"></script>
+    <script>
+      $(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>
 

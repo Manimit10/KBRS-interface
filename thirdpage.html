@@ -117,12 +117,25 @@
           <hr style="border-top: 3px solid #ddd;">
           <!-- /end of Third row -->
           
+          <nav aria-label="select pages">
+            <ul class="pagination justify-content-center">
+              <li class="page-item" >
+                <a class="page-link" href="index.html">1 </a>
+              </li>
+              <li class="page-item ">
+                <a class="page-link" href="secondPage.html"> 2 </a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="thirdpage.html"> 3 <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+          </nav>
 
         <!-- submit buttons -->
         <div class="form-row justify-content-center" style="margin-bottom: 60px;">
             <button type="submit" formaction="index.html" class="btn btn-outline-primary float-right ml-3"><i class="far fa-hand-point-left fa-lg"></i>back</button>
             <button type="submit" class="btn btn-outline-warning float-right ml-3">Reset Form</button>
-            <button type="submit" formaction="result.html" class="btn btn-outline-primary float-right ml-3"><i class="far fa-hand-point-right fa-lg"></i>Next</button>
+            <button type="submit" formaction="result.html" class="btn btn-outline-primary float-right ml-3">Submit <i class="fas fa-thumbs-up"></i></button>
       </div>
       </form>
     </div>
