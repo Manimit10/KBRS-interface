@@ -1,0 +1,433 @@
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3"
+    />
+    <title>Sidebar template</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css" />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./styles/sidenav.css" />
+  </head>
+
+  <body>
+    <div class="page-wrapper chiller-theme toggled">
+      <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+        <i class="fas fa-bars"></i>
+      </a>
+      <nav id="sidebar" class="sidebar-wrapper">
+        <div class="sidebar-content">
+          <div class="sidebar-brand">
+            <a href="#">Relaxation Pane</a>
+            <div id="close-sidebar">
+              <i class="fas fa-times"></i>
+            </div>
+          </div>
+          <div class="sidebar-header">
+            <div class="user-pic">
+              <img
+                class="img-responsive img-rounded"
+                src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
+                alt="User picture"
+              />
+            </div>
+            <div class="user-info">
+              <span class="user-name"
+                >Jhon
+                <strong>Smith</strong>
+              </span>
+              <span class="user-role">Teacher</span>
+              <span class="user-status">
+                <i class="fa fa-circle"></i>
+                <span>Online</span>
+              </span>
+            </div>
+          </div>
+          <!-- sidebar-header  -->
+
+          <!-- sidebar-search  -->
+          <div class="sidebar-menu">
+            <ul>
+              <li class="header-menu">
+                <span>General</span>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-tachometer-alt"></i>
+                  <span>Where to Apply</span>
+                  <!-- <span class="badge badge-pill badge-warning">change</span> -->
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#"
+                        >In the class
+                        <!-- <span class="badge badge-pill badge-success">Suggested</span> -->
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Online</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="far fa-gem"></i>
+                  <span>Student Discussion</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">Yes</a>
+                    </li>
+                    <li>
+                      <a href="#">No</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-tachometer-alt"></i>
+                  <span>Num of Students</span>
+                  <!-- <span class="badge badge-pill badge-warning">change</span> -->
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">Less than 10 </a>
+                    </li>
+                    <li>
+                      <a href="#">Between 10-20</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Between 30-40
+                        <!-- <span class="badge badge-pill badge-success">Suggested</span> -->
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Maore than 40
+                        <!-- <span class="badge badge-pill badge-success">Suggested</span> -->
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header-menu">
+                <span>Categorization</span>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-globe"></i>
+                  <span>Bloom Taxonomy</span>
+                  <!-- <span class="badge badge-pill badge-warning">change</span> -->
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">Remember</a>
+                    </li>
+                    <li>
+                      <a href="#">Undrestand</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Apply
+                        <!-- <span class="badge badge-pill badge-success">Suggested</span> -->
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Analysis</a>
+                    </li>
+                    <li>
+                      <a href="#">Evaluate</a>
+                    </li>
+                    <li>
+                      <a href="#">Create</a>
+                    </li>
+                  </ul>
+                </div>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-hourglass-half"></i>
+                    <span>Educational Level</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">Early Childhood Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Primary Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Lower Secondary Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Upper Secondary Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Post Secndary non-tertiary Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Short-Cycle Tertiary Education</a>
+                      </li>
+                      <li>
+                        <a href="#">Bachelor or Equivalent</a>
+                      </li>
+                      <li>
+                        <a href="#">Master or Equivalent</a>
+                      </li>
+                      <li>
+                        <a href="#">Doctoral or Equivalent</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-globe"></i>
+                  <span>Subject</span>
+                  <!-- <span class="badge badge-pill badge-warning">change</span> -->
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">General Programmes</a>
+                    </li>
+                    <li>
+                      <a href="#">Humanities and Arts</a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        >Social Science, Business & Law
+                        <!-- <span class="badge badge-pill badge-success">Suggested</span> -->
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">Science</a>
+                    </li>
+                    <li>
+                      <a href="#">Engineering, Manufacturing & Cnstruction</a>
+                    </li>
+                    <li>
+                      <a href="#">Agriculture</a>
+                    </li>
+                    <li>
+                      <a href="#">Health & Wellfare</a>
+                    </li>
+                    <li>
+                      <a href="#">Services</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="header-menu">
+                <span>Time</span>
+              </li>
+              
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-hourglass-half"></i>
+                  <span>Activity Time</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">less than 10 minutes</a>
+                    </li>
+                    <li>
+                      <a href="#">between 10 to 20 minutes</a>
+                    </li>
+                    <li>
+                      <a href="#">between 20-30</a>
+                    </li>
+                    <li>
+                      <a href="#">more than 30 minutes</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="sidebar-dropdown">
+                <a href="#">
+                  <i class="fa fa-hourglass-half"></i>
+                  <span>Submission Time</span>
+                </a>
+                <div class="sidebar-submenu">
+                  <ul>
+                    <li>
+                      <a href="#">less than 10 minutes</a>
+                    </li>
+                    <li>
+                      <a href="#">between 10 to 20 minutes</a>
+                    </li>
+                    <li>
+                      <a href="#">between 20-30</a>
+                    </li>
+                    <li>
+                      <a href="#">more than 30 minutes</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- sidebar-menu  -->
+        </div>
+        <!-- sidebar-content  -->
+        <div class="sidebar-footer">
+          <a href="#">
+            <i class="fa fa-bell"></i>
+            <!-- <span class="badge badge-pill badge-warning notification">3</span> -->
+          </a>
+          <a href="#">
+            <i class="fa fa-envelope"></i>
+            <!-- <span class="badge badge-pill badge-success notification">4</span> -->
+          </a>
+          <a href="#">
+            <i class="fa fa-cog"></i>
+            <!-- <span class="badge-sonar"></span> -->
+          </a>
+          <a href="#">
+            <i class="fa fa-power-off"></i>
+          </a>
+        </div>
+      </nav>
+      <!-- sidebar-wrapper  -->
+      <main class="page-content">
+        <div class="container-fluid">
+          <h2>Results Page</h2>
+          <hr />
+          <div class="row">
+            <div class="form-group col-md-12">
+              <p>
+                This is the result page. You always can change your requirment on the relaxation panel on the left side of the screen.
+              </p>
+            </div>
+          </div>
+          <h5>Learning Designs based on your requirments</h5>
+          <hr />
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="card rounded-0 p-0 shadow-sm">
+                <!-- <img
+                  src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png"
+                  class="card-img-top rounded-0"
+                  alt="Angular pro sidebar"
+                /> -->
+                <div class="card-body text-center">
+                  <h5 class="card-title">Name of LD</h5>
+                  <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
+                  <h6>time</h6>
+                  <h6>Author</h6>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    >Edit</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-success btn-sm"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="card rounded-0 p-0 shadow-sm">
+                <!-- <img
+                  src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png"
+                  class="card-img-top rounded-0"
+                  alt="Angular pro sidebar"
+                /> -->
+                <div class="card-body text-center">
+                  <h5 class="card-title">Name of LD</h5>
+                  <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
+                  <h6>time</h6>
+                  <h6>Author</h6>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    >Edit</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-success btn-sm"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+              <div class="card rounded-0 p-0 shadow-sm">
+                <!-- <img
+                  src="https://user-images.githubusercontent.com/25878302/58369568-a49b2480-7efc-11e9-9ca9-2be44afacda1.png"
+                  class="card-img-top rounded-0"
+                  alt="Angular pro sidebar"
+                /> -->
+                <div class="card-body text-center">
+                  <h5 class="card-title">Name of LD</h5>
+                  <p>Est est sunt proident et non est esse esse proident laborum aute reprehenderit nisi in. Reprehenderit ut esse minim qui. Reprehenderit id dolore aliquip cillum.</p>
+                  <h6>time</h6>
+                  <h6>Author</h6>
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-primary btn-sm"
+                    >Edit</a
+                  >
+                  <a
+                    href="#"
+                    target="_blank"
+                    class="btn btn-success btn-sm"
+                    >Preview</a
+                  >
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </main>
+      <!-- page-content" -->
+    </div>
+    <!-- page-wrapper -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/sidenav.js"></script>
+  </body>
+</html>
+
+

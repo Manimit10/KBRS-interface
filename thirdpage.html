@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://kit.fontawesome.com/df1dfdeddd.js" crossorigin="anonymous"></script>
+
+    <style>
+      hr {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 2;
+        border-top: 1px solid rgba(29, 52, 128, 0.1);
+      }
+    </style>
+    <title>Knowledge-based RS</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="./img/Logo-ILDE2.svg" height="30" class="d-inline-block align-top" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent-555"
+        aria-controls="navbarSupportedContent-555"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Explore LDs</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+          <li class="nav-item avatar">
+            <a class="nav-link p-0" href="#">
+              <img src="Mani-Avatar.png" class="rounded-circle z-depth-0" alt="avatar image" height="35" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- / end of Navbar -->
+    <div class="container" style="margin-top: 10px;">
+      <div class="row justify-content-center my-5">
+        <h4>Welcome to PyramidApp Recommender</h4>
+      </div>
+    </div>
+    <!-- start of form -->
+    <div class="container" style="margin-top: 20px;">
+      <form>
+        <div class="row justify-content-around mt-3">
+            
+        <div class="col-md-4"> 
+            <span>How much time do you want to dedicate to the activity?</span>
+          </div>
+        </div>
+        <div class="form-row justify-content-around mt-4">
+          
+          <div class="form-group col-md-4">
+            <select id="inputState" class="form-control">
+              <option selected>none of them</option>
+              <option>less than 10 minutes</option>
+              <option>between 10 to 20 minutes</option>
+              <option>between 20-30</option>
+              <option>more than 30 minutes</option>
+            </select>
+          </div>
+        </div>
+        <!-- /end of first row -->
+        <div class="row justify-content-around mt-3">
+            <div class="col-md-4">
+                <span>How much time do you want to devote to students before their submission? </br>
+                    <i>Note that the remainder time will be devoted to group activity. </i>
+                </span>
+            </div>
+            
+          </div>
+          <div class="form-row justify-content-around mt-4">
+            <div class="form-group col-md-4">
+              <select id="inputState" class="form-control">
+                <option selected>none of them</option>
+                <option>less than 10 minutes</option>
+                    <option>between 10 to 20 minutes</option>
+                    <option>between 20-30</option>
+                    <option>more than 30 minutes</option>
+              </select>
+            </div>
+          </div>
+         
+          <hr style="border-top: 3px solid #ddd;">
+          <!-- /end of Third row -->
+          
+
+        <!-- submit buttons -->
+        <div class="form-row justify-content-center" style="margin-bottom: 60px;">
+            <button type="submit" formaction="index.html" class="btn btn-outline-primary float-right ml-3"><i class="far fa-hand-point-left fa-lg"></i>back</button>
+            <button type="submit" class="btn btn-outline-warning float-right ml-3">Reset Form</button>
+            <button type="submit" formaction="result.html" class="btn btn-outline-primary float-right ml-3"><i class="far fa-hand-point-right fa-lg"></i>Next</button>
+      </div>
+      </form>
+    </div>
+    <!-- /end of form -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
